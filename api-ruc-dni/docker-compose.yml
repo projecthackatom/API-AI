@@ -1,0 +1,8 @@
+services:
+  backend:
+    build:
+      context: .
+    container_name: spring-ruc-dni
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
